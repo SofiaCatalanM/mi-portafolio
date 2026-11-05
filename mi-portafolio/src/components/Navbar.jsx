@@ -1,34 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Navbar() {
+  const [menuActivo, setMenuActivo] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuActivo(!menuActivo);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success">
-      <div className="container">
-        <a className="navbar-brand fw-bold" href="#inicio">Mi Portafolio</a>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <a className="navbar-brand" href="#inicio">Mi Portafolio</a>
         <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          className="navbar-toggle" 
+          onClick={toggleMenu}
+          aria-label="Abrir menu de navegacion"
         >
-          <span className="navbar-toggler-icon"></span>
+          ☰
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#inicio">Inicio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#noticias">Noticias</a>
-            </li>
-          </ul>
-        </div>
+        <ul className={`navbar-menu ${menuActivo ? 'activo' : ''}`}>
+          <li><a href="#inicio" onClick={() => setMenuActivo(false)}>Inicio</a></li>
+          <li><a href="#proyectos" onClick={() => setMenuActivo(false)}>Proyectos</a></li>
+          <li><a href="#noticias" onClick={() => setMenuActivo(false)}>Noticias</a></li>
+        </ul>
       </div>
     </nav>
   );

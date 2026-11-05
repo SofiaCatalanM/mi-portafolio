@@ -11,8 +11,8 @@ function App() {
       <Introduction />
       <Projects />
       <News />
-      <footer className="bg-dark text-white text-center py-3">
-        <p className="mb-0">2026 Sofia Catalan - Desarrollo Fullstack II</p>
+      <footer className="footer">
+        <p>© 2026 Sofia Catalan - Desarrollo Fullstack II</p>
       </footer>
     </div>
   );
