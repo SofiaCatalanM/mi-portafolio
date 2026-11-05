@@ -7,15 +7,15 @@ function Introduction() {
         <div className="introduccion-foto">
           <img 
             src="https://via.placeholder.com/300" 
-            alt="Foto profesional de Sofia Catalan, estudiante de Ingenieria en Informatica" 
+            alt="Foto profesional de Sofia Catalán, estudiante de Ingeniería en Informatica" 
           />
         </div>
         <div className="introduccion-texto">
-          <h1>Sofia Catalan</h1>
-          <p className="subtitulo">Estudiante de Ingenieria en Informatica</p>
+          <h1>Sofia Catalán</h1>
+          <p className="subtitulo">Estudiante de Ingeniería en Informatica con mencion en automatización</p>
           <p>
-            Soy estudiante de Duoc UC apasionada por el desarrollo web frontend. 
-            Tengo experiencia en HTML, CSS, JavaScript y React. 
+            Soy estudiante de Duoc UC de ingenieria en informatica con mencion en automatización. 
+            Tengo experiencia en HTML, CSS, JavaScript, React, Python, Java, SQL y NoSQL. 
             Me interesa crear interfaces intuitivas y funcionales que brinden 
             una excelente experiencia de usuario.
           </p>
