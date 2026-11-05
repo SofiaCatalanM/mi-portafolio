@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titulo": "Nuevo proyecto de portafolio con React",
+    "fecha": "2024-11-05",
+    "contenido": "He desarrollado un portafolio personal utilizando React, Bootstrap y Vite para mostrar mis proyectos y habilidades tecnicas."
+  },
+  {
+    "id": 2,
+    "titulo": "Aprendiendo desarrollo Fullstack",
+    "fecha": "2024-10-28",
+    "contenido": "Actualmente estoy cursando la asignatura de Desarrollo Fullstack II donde aprendo React, pruebas unitarias y despliegue en GitHub Pages."
+  },
+  {
+    "id": 3,
+    "titulo": "Proyecto HuertoHogar completado",
+    "fecha": "2024-10-15",
+    "contenido": "Desarrolle un e-commerce frontend con HTML, CSS, JavaScript y Bootstrap, implementando validaciones, LocalStorage y Git Flow."
+  }
+]
